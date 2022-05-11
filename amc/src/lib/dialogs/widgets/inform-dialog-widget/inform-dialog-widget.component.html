@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>{{title}}</h1>
+<div mat-dialog-content [innerHTML]="message" class="content-body">
+
+</div>
+<div mat-dialog-actions [ngClass]="actionsLayout + '-actions'">
+  <ng-container *ngFor="let action of actions">
+    <button mat-button (click)="submitAction(action)"
+      [color]="action.color ? action.color: 'primary'">{{action.label}}</button>
+  </ng-container>
+</div>
