@@ -1,0 +1,32 @@
+{
+  "name": "@renanwinter/amc",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "email": "renan.winter@gmail.com",
+    "name": "Renan Winter"
+  },
+  "description": "Core Module with some starting funcionalities for Angular Material projects",
+  "displayName": "@renanwinter/amc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RenanWinter/amc"
+  },
+  "peerDependencies": {
+    "@angular/cdk": "^13.3.0",
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0",
+    "@angular/material": "^13.3.0",
+    "@angular/animations": "~13.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/animations": "~13.3.0",
+    "@angular/cdk": "^13.3.6",
+    "@angular/common": "~13.3.0",
+    "@angular/core": "~13.3.0",
+    "@angular/material": "^13.3.6"
+  }
+}

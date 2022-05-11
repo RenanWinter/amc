@@ -1,7 +1,16 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@renanwinter/amc": [
+        "dist/renanwinter/amc/renanwinter-amc",
+        "dist/renanwinter/amc"
+      ],
+      "@renanwinter/angular-material-core": [
+        "dist/renanwinter/angular-material-core/renanwinter-angular-material-core",
+        "dist/renanwinter/angular-material-core"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
